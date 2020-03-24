@@ -2,10 +2,41 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "ac-react-simple-image-slider": "0.0.9",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "browserify-fs": "^1.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.3.1",
+    "react": "^16.12.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-encrypt": "^1.0.1",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-moment": "^0.9.7",
+    "react-native-fast-image": "^7.0.2",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-image-slider-box": "^1.0.11",
+    "react-password-strength": "^2.4.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-simple-image-slider": "^1.0.2",
+    "react-textfield": "0.0.6",
+    "react-validation": "^3.0.7",
+    "react-vertical-timeline-component": "^2.5.0",
+    "reactjs-image-gallery": "^1.1.2",
+    "reactstrap": "^8.1.1",
+    "use-strict": "^1.0.1",
+    "validator": "^12.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +58,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
   }
 }
